@@ -194,7 +194,7 @@
    * 双向链表结点
    */
   class DoublyNode extends Node {
-    constructor(element, prev) {
+    constructor(element) {
       // 通过super调用Node的构造函数
       super(element);
       // 指向上一个节点
