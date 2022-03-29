@@ -1,5 +1,9 @@
   /**
-   * 单向链表结点
+   * 链表
+   */
+
+  /**
+   * 单向链表节点
    */
   class Node {
     constructor(element) {
@@ -191,7 +195,7 @@
   }
 
   /**
-   * 双向链表结点
+   * 双向链表节点
    */
   class DoublyNode extends Node {
     constructor(element) {
