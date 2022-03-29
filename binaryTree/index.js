@@ -185,14 +185,14 @@ class BinarySearchTree {
   /**
    * 查找最大值
    */
-   max() {
+  max() {
     return this.maxNode(this.root)
   }
 
   /**
    * 查找最大节点
    */
-   maxNode(node) {
+  maxNode(node) {
     let current = node;
     // 循环一直往左侧查找
     while(current != null && current.rightNode != null) {
